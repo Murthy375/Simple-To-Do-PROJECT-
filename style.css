@@ -75,4 +75,16 @@ button:hover {
 
 li {
     padding: 5px;
+    background-color:  #8B0000;
+    list-style-type: disc;
+    margin: 5px 0 5px 0;
+    font-family: "krona one";
+    border-radius: 10px;
+}
+
+#heading {
+    text-align: center;
+    font-family: "Unbounded";
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
 }
