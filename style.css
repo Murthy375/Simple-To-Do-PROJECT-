@@ -84,15 +84,21 @@ main {
 .new-task {
     color: #222;
     width: 100%;
-    background-color:  greenyellow;
+    
+    background-color: greenyellow;
     list-style-type: disc;
     padding: 15px;
     font-family: "krona one";
     border-radius: 10px 0 0 10px;
+    
 }
 
 .new-task::marker {
     color: whitesmoke;
+}
+
+.new-task::selection {
+    background-color: none;
 }
 
 #heading {

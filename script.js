@@ -26,6 +26,28 @@ function taskMaker(task) {
     newTask.className = "new-task";
     newTask.appendChild(document.createTextNode(task));
     newItem.appendChild(newTask);
+
+    let doneCounter = 0;
+    //task done
+    newTask.addEventListener("click", () => {
+        if (doneCounter === 0) {
+            newTask.style.backgroundColor = "rgb(95, 158, 0)";
+            editBtn.remove();
+            delBtn.remove();
+            newTask.style.borderRadius = "10px"
+            newTask.style.textDecoration = "line-through";
+            newTask.style.marker = "circle"
+            doneCounter = 1;
+        }
+        else {
+            newTask.style.backgroundColor = "greenyellow";
+            newItem.appendChild(editBtn);
+            newItem.appendChild(delBtn);
+            newTask.style.borderRadius = "10px 0 0 10px"
+            newTask.style.textDecoration = "none"
+            doneCounter = 0
+        }
+    });
     
     // edit btn added to holder
     let editBtn = setEditor(newItem);

@@ -9,10 +9,12 @@
 - give li rounded border✅
 - change li style to disc or sqre✅
 
-## What's gonna come in -v 0.1.1
+## What's gonna come in -v 0.1.1 (minor update : 0.1.1)
 
 - option to delete task✅
 - option to edit task✅
 - add more padding to the input✅
 
-## Problems in -v 0.1.1 (patch update : 0.1.2)
+## What's gonna come in -v 0.2.1 (minor update : 0.2.1)
+
+- option to compleate a task✅
