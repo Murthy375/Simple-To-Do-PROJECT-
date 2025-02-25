@@ -1,4 +1,5 @@
 # ReadMe
+This is my first project, and I’m excited to share it! I’d truly appreciate your feedback and any constructive criticism to help me improve. Feel free to review it and share your thoughts at sridharkc375@gmail.com.
 
 ## Problems in -v 0.0.0 (patch update : 0.0.1)
 
